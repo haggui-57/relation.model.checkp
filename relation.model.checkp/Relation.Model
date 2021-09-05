@@ -1,0 +1,8 @@
+                            Relational Model 
+
+Hotel(Hotel  Id,Hotel_name,#type_Id)
+Type(Type Id, Type_name)
+Category(Category Id,Category_name,Price,Bds_numbers)
+Room(Room Id,Floor,#Category_Id,#Hotel_id)
+Employee(Empolyee Id,Employee_name,Employee_Speciality,
+#Hotel_id,#director_id)
